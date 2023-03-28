@@ -4,8 +4,12 @@
 
 body{
   margin: 0;
-  background-color: #050505eb
+  background-color: #050505eb;
+}
 
+@font-face {
+  font-family: 'Get Schwifty';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
 }
 
 .nav{
@@ -18,17 +22,17 @@ body{
   padding: 1rem;
 }
 
-.rymsite{
-  font-size: 2rem;
-}
 
 .nav ul{
-  padding: 0;
+  padding-right: 1em;
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  
 }
+
 
 .nav a {
   color: inherit;
@@ -37,31 +41,91 @@ body{
   display: flex;
   align-items: center;
   padding: .25rem;
+  font-family: Get Schwifty;
+  font-size: 1.5em;
 }
 
 .nav li.active{
   background-color: #15B1C9;
+  border-radius: 4px;
 }
 
 .nav li:hover{
   background-color: #79F549;
+  border-radius: 4px;
 }
 
 .videobg{
   width: 100%;
   height: 90vh;
   padding-left: 30em;
+  
 }
 
 video{
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 
 img{
   width: 150px;
   height: auto;
   object-position: left top;
+  display: flex;
 }
+
+.warning{
+  position: absolute;
+  width: 50%;
+  height:100%;
+  top: 11em ;
+  left: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content:left ;
+  align-items: left;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button{
+    text-decoration: none;
+    display: flex;
+    font-family: Get Schwifty;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    background-color: #79F549;
+    width:150px;
+    height:70px;
+    align-items: center;
+}
+
+.button:hover{
+  background-color: #15B1C9;
+}
+
+footer {
+  background-color: #050505eb;
+}
+
+footer p {
+  margin: 0;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
+
+footer .container {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+

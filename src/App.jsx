@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom"
 
 
 // Esta función está relacionada con la mencionada en Navbar.jsx
+// Había dejado las rutas según lo importado, pero me generaba conflicto y no se renderizaba el contenido
 function App() {
   return (
     <>
@@ -17,18 +18,29 @@ function App() {
         <Routes>
           <Route path='/home' />
           <Route path='/char' />
-          <Route path='/about'/>
-          <Route path='/login'/>
+          <Route path='/about' />
+          <Route path='/login' />
         </Routes>
       </div>
 
-    <div className='videobg'>
-      <video src={videoBg} autoPlay loop muted/>
-    </div>
-      
+      <div className='videobg'>
+
+        <div className="warning">
+          <h1>Encuentra <br></br>
+            tu personaje <br></br>
+            favorito <br></br>
+          </h1>
+          <a className='button' href='/char'>BUSCAR</a>
+        </div>
+  
+        <video src={videoBg} autoPlay loop muted />
+      </div>
+
+
+
     </>
 
-    
+
   )
 }
 
