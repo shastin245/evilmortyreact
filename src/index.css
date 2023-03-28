@@ -4,6 +4,8 @@
 
 body{
   margin: 0;
+  background-color: #050505eb
+
 }
 
 .nav{
@@ -11,9 +13,9 @@ body{
   color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .rymsite{
@@ -31,11 +33,35 @@ body{
 .nav a {
   color: inherit;
   text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active{
+  background-color: #15B1C9;
 }
 
 .nav li:hover{
   background-color: #79F549;
 }
-.nav li.active{
-  background-color: #15B1C9;
+
+.videobg{
+  width: 100%;
+  height: 90vh;
+  padding-left: 30em;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+img{
+  width: 150px;
+  height: auto;
+  object-position: left top;
 }
