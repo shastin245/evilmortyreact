@@ -26,7 +26,7 @@ export default function List2() {
 
     return (
         <div className='container'>
-            <h1>Lista de Personajes</h1>
+            <h1>Lista de Personajes  - Parte 2</h1>
             <div className='row'>
                 {
                     personajes.map((psjs, indice) => {

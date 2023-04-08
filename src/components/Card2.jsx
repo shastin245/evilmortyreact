@@ -32,7 +32,7 @@ export default function Card2(props) {
     return (
         <div>
             <div className="card">
-                <img src={personajes.image} class="card-img-top" alt="..."/>
+                <img src={personajes.image} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">{personajes.name}</h5>
                     <p>{personajes.name} es un personajes con estado "{personajes.status}" de especie "{personajes.species}"
@@ -47,7 +47,7 @@ export default function Card2(props) {
             
             {/*apartado del modal*/}
 
-            <div className="modal fade" id={personajes.id} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade" id={personajes.id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                     <div className="modal-header">
