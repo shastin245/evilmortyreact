@@ -9,14 +9,14 @@ export default function AboutUs(props) {
       
             <div class="">
               
-                <div class = "row align-items-left"> 
+                <div class = "row"> 
                 
-                  <div class="col-md-6 align-middle container p-4">
+                  <div class="col-md-6 px-5">
 
-                    <img src="Resource/Justin.png"  alt="" />
+                    <img src="Resource/Justin.png" alt="" />
 
                   </div>
-                  <div class="col-md-6 container p-4  ">
+                  <div class="col-md-6 container p-4 col align-self-center ">
 
                     <h5 class="text-aling-right fw-light"> Justin Romero </h5> 
                     <h1> FRONTEND </h1>  
@@ -33,7 +33,7 @@ export default function AboutUs(props) {
               
                 <div class = "row"> 
                 
-                  <div class="col-md-6 text-end">
+                  <div class="col-md-6 text-end col align-self-center ">
                     <h5 class="text-aling-right fw-light"> Rocio Chicas </h5> 
                     <h1 class="text-aling-right"> FULL STACK </h1> 
 
@@ -53,14 +53,14 @@ export default function AboutUs(props) {
 
            <div class="">
               
-                <div class = "row align-items-left"> 
+                <div class = "row"> 
                 
-                  <div class="col-md-6 ">
+                  <div class="col-md-6 px-5 ">
 
-                    <img src="Resource/Fatima.png"  alt="" />
+                    <img src="Resource/Fatima.png" alt="" />
 
                   </div>
-                  <div class="col-md-6 ">
+                  <div class="col-md-6 col align-self-center ">
                     <h5 class="text-aling-right fw-light"> Fatima Monterola </h5> 
                     <h1 class=""> BACKEND </h1>  
                     
@@ -76,7 +76,7 @@ export default function AboutUs(props) {
               
                 <div class = "row"> 
                 
-                  <div class="col-md-6 text-end "> 
+                  <div class="col-md-6 text-end col align-self-center "> 
 
                      
 
