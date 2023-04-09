@@ -76,13 +76,17 @@ export default function AboutUs(props) {
               
                 <div class = "row"> 
                 
-                  <div class="col-md-6 text-end ">
+                  <div class="col-md-6 text-end "> 
 
-                  
-                  <h5 class="text-aling-right fw-light aling-item-center"> Jonathan Ferman </h5> 
-                    <h1> FRONTEND </h1>
+                     
+
+                      <h5 class="text-aling-right fw-light aling-item-center"> Jonathan Ferman </h5> 
+                      <h1> FRONTEND </h1>
+
                     
+                      
 
+            
                   </div>
 
                   <div class="col-md-6">
