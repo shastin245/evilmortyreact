@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-
 export default function Card(props) {
     /*
     estamos pasando las props que provienen del estado de personajes
@@ -74,3 +73,4 @@ export default function Card(props) {
         </div>
     )
 }
+
