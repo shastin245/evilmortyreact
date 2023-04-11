@@ -1,0 +1,20 @@
+.navbar-brand img{
+    width: 150px;
+    height: auto;
+    object-position: left top;
+    display: flex;
+   
+}
+
+  
+#navbarSupportedContent{
+    padding-right: 1rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    transition: 1s;
+  } 
+
