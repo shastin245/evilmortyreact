@@ -60,6 +60,7 @@ export default function AboutUs(props) {
                     <img src="Resource/Fatima.png" alt="" />
 
                   </div>
+
                   <div class="col-md-6 col align-self-center ">
                     <h5 class="text-aling-right fw-light"> Fatima Monterola </h5> 
                     <h1 class=""> BACKEND </h1>  
@@ -83,9 +84,6 @@ export default function AboutUs(props) {
                       <h5 class="text-aling-right fw-light aling-item-center"> Jonathan Ferman </h5> 
                       <h1> FRONTEND </h1>
 
-                    
-                      
-
             
                   </div>
 
@@ -97,6 +95,27 @@ export default function AboutUs(props) {
                 
                 
                 </div>
+                
+           </div>
+
+           <div class="">
+              
+                <div class = "row"> 
+                
+                  <div class="col-md-6 px-5 ">
+
+                    <img src="Resource/Nuria.png" alt="" />
+
+                  </div>
+                  
+                  <div class="col-md-6 col align-self-center ">
+                    <h5 class="text-aling-right fw-light"> Nuria Arevalo </h5> 
+                    <h1 class=""> BACKEND </h1>  
+                    
+                  </div>
+                
+              
+              </div>
                 
            </div>
 
