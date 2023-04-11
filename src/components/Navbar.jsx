@@ -5,6 +5,8 @@ import List2 from './List2'
 import List3 from './List3'
 import Search from './Search'
 import Search2 from './Search2'
+import './Navbar.css'
+
 
 
 export default function Navbar(props) {
@@ -12,7 +14,7 @@ export default function Navbar(props) {
         <BrowserRouter>
             <nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark" data-bs-theme="dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Rick and Morty</a>
+                    <a className="navbar-brand" href="#"><img src='src\assets\logorym.png'></img></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -31,7 +33,7 @@ export default function Navbar(props) {
                                     <li className="nav-item"><Link to='/Nuria' className="nav-link">Nuria</Link></li>
                                     <li className="nav-item"><Link to='/Rocio' className="nav-link">Rocío</Link></li>
                                     <li className="nav-item"><Link to='/Justin' className="nav-link">Justin</Link></li>
-                                    <li className="nav-item"><Link to='/Johnatan' className="nav-link">Johnatan</Link></li>
+                                    <li className="nav-item"><Link to='/Johnatan' className="nav-link">Jonathan</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
