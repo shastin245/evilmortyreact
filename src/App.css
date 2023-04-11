@@ -30,13 +30,14 @@ button{
   background: #181818;
   cursor: pointer;
   border: none;
-  padding: 16px 32px;
+  padding: 20px 40px;
   color: #FFF;
   font-size: 24px;
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: relative;
   border-radius: 12px;
+  left: 30vh;
   }
   
   button::before{
@@ -75,25 +76,55 @@ button{
 @media screen and (max-width: 480px) {
   .legend{
     color: white;
-    padding-top: 1vh;
+    padding-top: 15vh;
     text-align: center;
     font-size: 2em;
     font-weight: bolder;
     justify-content: center;
   }
   
+  button{
+    background: #181818;
+    cursor: pointer;
+    border: none;
+    padding: 20px 40px;
+    top: 5vh;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    border-radius: 12px;
+    left: 18vh;
+    }
+    
 }
 
-@media screen and (min-width: 481px) and (max-width:768px) {
+@media screen and (min-width: 481px)  {
   .legend{
     color: white;
-    padding-top: -5vh;
+    padding-top: 8vh;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2.5em;
     font-weight: bolder;
     justify-content: center;
   }
   
+  button{
+    background: #181818;
+    cursor: pointer;
+    border: none;
+    padding: 20px 40px;
+    top: 5vh;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    border-radius: 12px;
+    left: 18vh;
+    }
+    
 }
 
 @media screen and (min-width: 769px) and (max-width:840px) {
@@ -102,12 +133,27 @@ button{
     padding: auto;
     margin: 9vh 0 0 0;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 3em;
     font-weight: bolder;
     justify-content: center;
   
   }
-  
+ 
+  button{
+    background: #181818;
+    cursor: pointer;
+    border: none;
+    padding: 40px 60px;
+    top: 5vh;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    border-radius: 12px;
+    left: 35vh;
+    }
+    
 }
 
 @media screen and (min-width: 841px) and (max-width:1280px) {
@@ -115,11 +161,26 @@ button{
     color: white;
     padding-right: 1rem;
     text-align: center;
-    font-size: 3em;
+    padding-top: 0vh;
+    font-size: 4em;
     font-weight: bolder;
     justify-content: center;
   }
   
+  button{
+    background: #181818;
+    cursor: pointer;
+    border: none;
+    padding: 40px 50px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    border-radius: 12px;
+    left: 60vh;
+    }
+    
 }
 
 @media screen and (min-width: 1281px) and (max-width:1500px) {
@@ -150,14 +211,18 @@ button{
     background: #181818;
     cursor: pointer;
     border: none;
+    padding: 50px 70px;
     color: #FFF;
-    font-size: 24px;
+    font-size: 3em;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
     border-radius: 12px;
+    left: 20vh;
     }
+    
 
 }
+
 
 
