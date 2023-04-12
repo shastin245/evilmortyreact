@@ -6,6 +6,8 @@ function App() {
     <div>
       <Navbar></Navbar>
     </div>
+
+    
   )
 }
 

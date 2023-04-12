@@ -1,131 +1,62 @@
 import React from 'react'
 
-export default function AboutUs(props) {
+export default function AboutUs() {
   return (
-    
-    <div>
-      
-      
-      
-            <div class="">
-              
-                <div class = "row"> 
+    <div className="container">
+        <div className = "row">
+            <div className='col-sm-12 col-md-6 col-lg-6 text-center'>                    
+                <img src="resources/Justin.png" className="img-fluid" width="1300px" alt="..."/>
+            </div>
                 
-                  <div class="col-md-6 px-5">
+            <div className="col-sm-12 col-md-6 col-lg-6 align-self-center ">
+                <h5 className="text-center fw-light"> Justin Romero </h5>
+                <h1 className='text-center'> FRONT-END </h1>
+            </div>
+        </div>
 
-                    <img src="Resource/Justin.png" alt="" />
+        <div className = "row">
+            <div className="col-sm-12 col-md-6 col-lg-6 align-self-center ">
+                <h5 className="text-center fw-light"> Rocío Chicas </h5>
+                <h1 className='text-center'> FULL STACK JR</h1>
+            </div>
+            <div className='col-sm-12 col-md-6 col-lg-6 text-center'>                    
+                <img src="resources/Rocio.png" className="img-fluid" width="1300px" alt="..."/>
+            </div>
+        </div>
 
-                  </div>
-                  <div class="col-md-6 container p-4 col align-self-center ">
-
-                    <h5 class="text-aling-right fw-light"> Justin Romero </h5> 
-                    <h1> FRONTEND </h1>  
-                    
-                  </div>
+        <div className = "row">
+            <div className='col-sm-12 col-md-6 col-lg-6 text-center'>                    
+                <img src="resources/Fatima.png" className="img-fluid" width="1300px" alt="..."/>
+            </div>
                 
+            <div className="col-sm-12 col-md-6 col-lg-6 align-self-center ">
+                <h5 className="text-center fw-light"> Fátima Monterola </h5>
+                <h1 className='text-center'> BACK-END</h1>
+            </div>
+        </div>
+
+        <div className = "row">
+            <div className="col-sm-12 col-md-6 col-lg-6 align-self-center ">
+                <h5 className="text-center fw-light"> Jonathan Fernan</h5>
+                <h1 className='text-center'>FRONT-END</h1>
+            </div>
+            <div className='col-sm-12 col-md-6 col-lg-6 text-center'>                    
+                <img src="resources/JF.png" className="img-fluid" width="1300px" alt="..."/>
+            </div>
+        </div>
+
+        <div className = "row">
+            <div className='col-sm-12 col-md-6 col-lg-6 text-center'>                    
+                <img src="resources/Nuria.png" className="img-fluid" width="1300px" alt="..."/>
+            </div>
                 
-                </div>
-                
-           </div>
-      
-
-           <div class="">
-              
-                <div class = "row"> 
-                
-                  <div class="col-md-6 text-end col align-self-center ">
-                    <h5 class="text-aling-right fw-light"> Rocio Chicas </h5> 
-                    <h1 class="text-aling-right"> FULL STACK </h1> 
-
-                  </div>
-
-                  <div class="col-md-6">
-
-                    <img src="Resource/Rocio.png"  alt="" /> 
-    
-                  </div>
-                
-                
-                </div>
-                
-           </div>
-      
-
-           <div class="">
-              
-                <div class = "row"> 
-                
-                  <div class="col-md-6 px-5 ">
-
-                    <img src="Resource/Fatima.png" alt="" />
-
-                  </div>
-
-                  <div class="col-md-6 col align-self-center ">
-                    <h5 class="text-aling-right fw-light"> Fatima Monterola </h5> 
-                    <h1 class=""> BACKEND </h1>  
-                    
-                  </div>
-                
-              
-              </div>
-                
-           </div>
-
-
-           <div class="">
-              
-                <div class = "row"> 
-                
-                  <div class="col-md-6 text-end col align-self-center "> 
-
-                     
-
-                      <h5 class="text-aling-right fw-light aling-item-center"> Jonathan Ferman </h5> 
-                      <h1> FRONTEND </h1>
-
-            
-                  </div>
-
-                  <div class="col-md-6">
-
-                    <img src="Resource/JF.png"  alt="" /> 
-    
-                  </div>
-                
-                
-                </div>
-                
-           </div>
-
-           <div class="">
-              
-                <div class = "row"> 
-                
-                  <div class="col-md-6 px-5 ">
-
-                    <img src="Resource/Nuria.png" alt="" />
-
-                  </div>
-                  
-                  <div class="col-md-6 col align-self-center ">
-                    <h5 class="text-aling-right fw-light"> Nuria Arevalo </h5> 
-                    <h1 class=""> BACKEND </h1>  
-                    
-                  </div>
-                
-              
-              </div>
-                
-           </div>
-
-
-
-     </div>
+            <div className="col-sm-12 col-md-6 col-lg-6 align-self-center ">
+                <h5 className="text-center fw-light"> Nuria Arévalo </h5>
+                <h1 className='text-center'>BACK-END</h1>
+            </div>
+        </div>         
+        
+    </div>  
+           
   )
 }
-
-
-
-
-

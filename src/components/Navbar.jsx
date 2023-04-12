@@ -1,22 +1,19 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
-
 import List from './List'
 import List2 from './List2'
 import List3 from './List3'
-import Appj from './Appj'
 import Search from './Search'
-import Search2 from './Search2'
+import AboutUs from './AboutUs'
 import './Navbar.css'
 
 
-
-export default function Navbar(props) {
+export default function Navbar() {
     return (
         <BrowserRouter>
-            <nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark" data-bs-theme="dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark"  data-bs-theme="dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#"><img src='src\assets\logorym.png'></img></a>
+                <a className="navbar-brand" href="#"><img src='src\assets\logorym.png'></img></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -25,18 +22,8 @@ export default function Navbar(props) {
                             <li className="nav-item">
                                 <Link to='/' className="nav-link active">Home</Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Integrantes
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li className="nav-item"><Link to='/Fatima' className="nav-link">Fátima</Link></li>
-                                    <li className="nav-item"><Link to='/Sofia' className="nav-link">Sofía</Link></li>
-                                    <li className="nav-item"><Link to='/Nuria' className="nav-link">Nuria</Link></li>
-                                    <li className="nav-item"><Link to='/Rocio' className="nav-link">Rocío</Link></li>
-                                    <li className="nav-item"><Link to='/Justin' className="nav-link">Justin</Link></li>
-                                    <li className="nav-item"><Link to='/Johnatan' className="nav-link">Jonathan</Link></li>
-                                </ul>
+                            <li className="nav-item">
+                                <Link to='/Integrantes' className="nav-link">Integrantes</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,16 +43,11 @@ export default function Navbar(props) {
                 </div>
             </nav>
             <Routes>
-                <Route path='/' element={<Appj/>}/>
+                <Route path='/' element={<List/>}/>
                 <Route path='/Lista1' element={<List/>}/>
                 <Route path='/Lista2' element={<List2/>}/>                   
                 <Route path='/Lista3' element={<List3/>}/>              
-                <Route path='/Fatima' element={<List/>}/>
-                <Route path='/Sofia' element={<List/>}/>
-                <Route path='/Nuria' element={<List/>}/>
-                <Route path='/Rocio' element={<List/>}/>
-                <Route path='/Justin' element={<List/>}/>
-                <Route path='/Jonathan' element={<List/>}/>                
+                <Route path='/Integrantes' element={<AboutUs/>}/>               
                 <Route path='/Buscador' element={<Search/>}/>
             </Routes>
         </BrowserRouter>

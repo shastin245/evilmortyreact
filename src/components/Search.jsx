@@ -57,7 +57,7 @@ export default function Search() {
              
             <div className='row'>
             {                 
-                buscar == undefined ? <h1>No hay datos</h1>:
+                buscar == undefined ? <div><h1>No hay datos</h1> <p>Por favor utiliza términos Alive, Dead o Unknown</p></div>:
                 (
                 buscar.filter((psj) => {
                     //Enviando la información del estado otro componente mediante props
