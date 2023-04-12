@@ -13,7 +13,7 @@ export default function AboutUs(props) {
                 
                   <div class="col-md-6 px-5">
 
-                    <img src="Resource/Justin.png" alt="" />
+                    <img class="img-fluid.max-width:100%; height: auto;" src="Resource/Justin.png" alt="" />
 
                   </div>
                   <div class="col-md-6 container p-4 col align-self-center ">
@@ -41,7 +41,7 @@ export default function AboutUs(props) {
 
                   <div class="col-md-6">
 
-                    <img src="Resource/Rocio.png"  alt="" /> 
+                    <img class="img-fluid.max-width:100%; height: auto;" src="Resource/Rocio.png"  alt="" /> 
     
                   </div>
                 
@@ -57,7 +57,7 @@ export default function AboutUs(props) {
                 
                   <div class="col-md-6 px-5 ">
 
-                    <img src="Resource/Fatima.png" alt="" />
+                    <img class="img-fluid.max-width:100%; height: auto;" src="Resource/Fatima.png" alt="" />
 
                   </div>
 
@@ -89,7 +89,7 @@ export default function AboutUs(props) {
 
                   <div class="col-md-6">
 
-                    <img src="Resource/JF.png"  alt="" /> 
+                    <img class="img-fluid.max-width:100%; height: auto;" src="Resource/JF.png"  alt="" /> 
     
                   </div>
                 
@@ -104,7 +104,7 @@ export default function AboutUs(props) {
                 
                   <div class="col-md-6 px-5 ">
 
-                    <img src="Resource/Nuria.png" alt="" />
+                    <img class="img-fluid.max-width:100%; height: auto;" src="Resource/Nuria.png" alt="" />
 
                   </div>
                   
