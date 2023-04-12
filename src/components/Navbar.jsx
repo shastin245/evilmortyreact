@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
-import Home from './Home'
+
 import List from './List'
 import List2 from './List2'
 import List3 from './List3'
-import Jonathan from './Jonathan'
+
 import Search from './Search'
 import Search2 from './Search2'
 import './Navbar.css'
@@ -56,7 +56,7 @@ export default function Navbar(props) {
                 </div>
             </nav>
             <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/' element={<List/>}/>
                 <Route path='/Lista1' element={<List/>}/>
                 <Route path='/Lista2' element={<List2/>}/>                   
                 <Route path='/Lista3' element={<List3/>}/>              
@@ -64,8 +64,8 @@ export default function Navbar(props) {
                 <Route path='/Sofia' element={<List/>}/>
                 <Route path='/Nuria' element={<List/>}/>
                 <Route path='/Rocio' element={<List/>}/>
-                <Route path='/Justin' element={<List/>}/>
-                <Route path='/Jonathan' element={<Jonathan/>}/>                
+                <Route path='/Justin' element={<Home/>}/>
+                <Route path='/Jonathan' element={<List/>}/>                
                 <Route path='/Buscador' element={<Search/>}/>
             </Routes>
         </BrowserRouter>

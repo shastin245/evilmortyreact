@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import AboutUs from './Components/AboutUs'
+import AboutUs from './AboutUs'
 
 
 function App() {
