@@ -1,0 +1,85 @@
+
+  
+  video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .legend{
+    color: white;
+    padding: 0;
+    margin:2em;
+    text-align: justify;
+    font-size: 4em;
+    font-weight: bolder;
+    justify-content: center;
+    transition: 1.5s;
+
+  }
+  
+  .legend:hover{
+    color: #ffffff;
+    text-shadow: 0 0  25px #000000, 0 0 50px #79F549, 0 0 50px #000000, 0 0 100px #79F549
+  }
+
+  .vid-contenedor{
+    position: absolute;
+    top: 5vh;
+    padding-left: 35vh;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 1;
+    z-index: -10;
+    background-color: #181818;
+
+  }
+
+  .login-out{
+    background: #181818;
+    top: 11em;
+    cursor: pointer;
+    border: 0;
+    padding: 20px 70px;
+    color: #c2a6a6;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    border-radius: 12px;
+    left: 87vh;
+    }
+    
+    .login-out::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        45deg,
+        #79F549, #ffffff, #79F549,
+        #181818, #181818, #79F549 
+      );
+      background-size: 800%;
+      border-radius: 10px;
+      filter: blur(8px);
+      animation: glowing 20s linear infinite;
+    }
+    
+    @keyframes glowing{
+      0%{
+        background-position: 0 0;
+      }
+    
+      50%{
+        background-position: 400% 0;
+      }
+    
+      100%{
+        background-position: 0 0;
+      }
+    }
